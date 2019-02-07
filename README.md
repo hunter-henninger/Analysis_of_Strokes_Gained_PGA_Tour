@@ -4,15 +4,20 @@
 ### Strokes gained acts as a measure of success no matter what type of golf is being played. The goal on each hole is to get the ball in the hole in the fewest number of strokes possible. 
 
 
-#### PCA
 
 
-#### leftout players due to minimal data: Justin Rose, Francesco Molinari, Sergio Garcia, Keegan Bradley, Gary Woodland, Eddie Pepperell, Kiradech Aphibarnrat, Kevin Kisner, Ian Poulter, Adam Scott, Matt Wallace, Lucas Bjerregaard, Emiliano Grillo, Shugo Imahira, Alexander Björk, Si Woo Kim, Lee Westwood, Pat Perez, Zach Johnson, Adrian Otaegui, Shaun Norris, Thomas Pieters
+#### leftout players due to minimal data: Justin Rose, Francesco Molinari, Sergio Garcia, Keegan Bradley, Gary Woodland, Eddie Pepperell, Kiradech Aphibarnrat, Kevin Kisner, Ian Poulter, Adam Scott, Matt Wallace, Lucas Bjerregaard, Emiliano Grillo, Shugo Imahira, Alexander Björk, Si Woo Kim, Lee Westwood, Pat Perez, Zach Johnson, Adrian Otaegui, Shaun Norris, Thomas Pieters, Haotong Li, Thorbjorn Oleson, Dylan Frittelli, Tom Lewis, Satoshi Kodaira, Matthew Fitzpatrick, Tyrrell Hatton
+
+
+### Approach:
+   - Run basic model on columns with no null values.
+   - Start tacking on columns in attempt to improve model performance.
+   - Once a certain explanatory power is reached, separate model into two based on club head speed.
+   - Run fast model on all players and slow model on all players to do an analysis on specific players that perform against the odds.
 
 
 
 #### Do you have data fully in hand and if not, what blockers are you facing?
-
 Yes, I have all my data. 50 players in the PGA Tour and every tournament they have played. 
 
 #### Have you done a full EDA on all of your data?
@@ -32,6 +37,8 @@ I have to clean the data to the point that I can use it in modeling and then beg
 
 #### What topics do you want to discuss during your 1:1?
 I have been talking about null values too much so I don’t want to dwell on that. I am going to take multiple approaches to the missing data and comparing those models to find the best one. 
+
+How do I make data private on github?
 
 
 
