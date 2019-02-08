@@ -39,8 +39,6 @@ The slower Club Head Speed model explained a decreased 58.41% of variability in 
 
 In comparison, the faster Club Head Speed model explained an increased 61.32% of variability in Total Strokes Gained. This difference in R-squared implies the difficulty of explaining the performance of golfers that swing the club slower. The magnitude of coefficients for the &quot;fast&quot; model are much greater overall suggesting that a golfer with a faster Club Head Speed is performing well based on fewer aspects of the game. Greens in Regulation Percentage as well as Fairway Proximity are quite strong predictors of Total Strokes Gained for this model. Putting statistics more negatively affect a golfers&#39; efficiency in this model compared to the &quot;slow&quot; model.
 
-
-
 ## Conclusion:
 
 With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease their distance to the hole on every shot on their way to the hole. They do not have to rely on making the &quot;clutch&quot; putts as much as a player with a slower swing speed. A faster Club Head Speed helps players gain enough strokes off the tee and in the fairway that making chips and ten foot putts is less important.
