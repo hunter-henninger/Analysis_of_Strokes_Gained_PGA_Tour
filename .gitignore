@@ -1,4 +1,6 @@
 Data/*
 __pycache__/*
 .DS_Store
-.ipynb_checkpoints/*
+.ipynb_checkpoins/*
+./Code/.DS_Store
+./Code/.ipynb_checkpoins/*
