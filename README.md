@@ -14,16 +14,17 @@ This study aims to capture statistical evidence of the impact of Club Head Speed
 ## The Data
 |Feature|Type|Description|
 |---|---|---|
-|**belongs_to_collection**|*int*|Binary column that indicates if the movie belongs to collection|
-|**budget**|*float*|The budget of the movie in dollars|
-|**genres**|*object*|A list of all the genres associated with the movie|
-|**homepage**|*int*|Binary column that indicates if the movie has a homepage|
-|**overview**|*object*|A brief overview of the movie|
-|**popularity**|*float*|The Popularity Score assigned by TMDB|
-|**production_companies**|*object*|A list of production companies involved with the making of the movie|
-|**production_countries**|*object*|A list of countries where the movie was shot|
-|**release_date**|*datetime*|Release Date of the movie|
-|**revenue**|*float*|The total revenue of the movie in US dollars|
+|**sg:_off-the-tee**|*float*|The distance a player hits the ball off the tee on Par 4 and Par 5's measured against a statistical baseline used for the entire Tour|
+|**sg:_approach-the-green**|*float*|The number of approach shots a player takes from specific distances on each hole measured against a statistical baseline. This includes Par 3 tee shots|
+|**sg:_around-the-green**|*float*|The number of shots a player takes within 30 yards of the edge of the green measured against a statistical baseline|
+|**sg:_putting**|*float*|The number of puts a player takes on a green measured against a statistical baseline|
+|**driving_distance**|*float*|The average number of yards per measured drive (2 per round)|
+|**longest_drives**|*float*|The longest drive for that player's entire year|
+|**driving_accuracy_percentage**|*float*|The percentage of time a tee shot comes to rest in the fairway|
+|**distance_from_edge_of_fairway**|*float*|The average distance in feet and inches from the edge of the fairway when the player misses the fairway|
+|**left/right_rough_tendency**|*float*|The percentage of time a tee shot comes to rest in the left/right rough|
+|**club_head_speed**|*float*|The speed at which the club impacts the ball (mph)|
+|**greens_in_regulation_percentage**|*float*|The percentage of time the player was able to hit the green in regulation (1st stroke on a Par 3, 2nd stroke on a Par 4, 3rd stroke on a Par 5)|
 |**runtime**|*float*|Duration of the movie in minutes|
 |**spoken_languages**|*object*|A list of spoken languages in the movie|
 |**tagline**|*object*|The tagline of the movie|
