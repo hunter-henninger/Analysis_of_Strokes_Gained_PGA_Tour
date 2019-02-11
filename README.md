@@ -12,7 +12,27 @@ Many young golfers with swing speeds well above the Tour average (roughly 113-11
 This study aims to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. Through a process of wrangling, cleaning, manipulating, and modeling an extensive dataset of PGA metrics, this analysis numerically illustrates the disadvantage of having a slower Club Head Speed.
 
 ## The Data
-[Data Dictionary]
+|Feature|Type|Description|
+|---|---|---|
+|**belongs_to_collection**|*int*|Binary column that indicates if the movie belongs to collection|
+|**budget**|*float*|The budget of the movie in dollars|
+|**genres**|*object*|A list of all the genres associated with the movie|
+|**homepage**|*int*|Binary column that indicates if the movie has a homepage|
+|**overview**|*object*|A brief overview of the movie|
+|**popularity**|*float*|The Popularity Score assigned by TMDB|
+|**production_companies**|*object*|A list of production companies involved with the making of the movie|
+|**production_countries**|*object*|A list of countries where the movie was shot|
+|**release_date**|*datetime*|Release Date of the movie|
+|**revenue**|*float*|The total revenue of the movie in US dollars|
+|**runtime**|*float*|Duration of the movie in minutes|
+|**spoken_languages**|*object*|A list of spoken languages in the movie|
+|**tagline**|*object*|The tagline of the movie|
+|**title**|*object*|The Official Title of the movie|
+|**vote_average**|*float*|The average voting rating of the movie, as counted by TMDB|
+|**vote_count**|*float*|The number of votes, as counted by TMDB|
+|**keywords**|*object*|The movie plot keywords|
+|**cast**|*object*|Names of the cast of the movie|
+|**crew**|*object*|Names of the crew of the movie|
 
 ## Conclusion
 
