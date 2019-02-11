@@ -10,7 +10,6 @@ Driving distance on the PGA Tour continues to increase as many young, athletic g
 Through a process of wrangling, cleaning, manipulating, and modeling an extensive dataset of PGA metrics, this analysis clarifies the disadvantages of having a slower Club Head Speed.
 
 ## The Data
-Description of Strokes Gained [here](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
 |Feature|Type|Description|
 |---|---|---|
 |**sg:_off-the-tee**|*float*|The distance a player hits the ball off the tee on Par 4 and Par 5's measured against a statistical baseline used for the entire Tour|
@@ -40,6 +39,8 @@ Description of Strokes Gained [here](https://www.pgatour.com/news/2016/05/31/str
 |**putting_from_**|*float*|The percentage of time the player makes the putt from the specified distance|
 |**approach_putt_performance**|*float*|Average distance to the hole after the first putt (inches)|
 |**birdie_or_better_conversion_percentage**|*float*|The percent of time a player makes birdie or better after hitting the green in regulation|
+<br><br>
+Description of Strokes Gained [here](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
 
 ## Conclusion
 
