@@ -3,15 +3,14 @@ _Author: Hunter Henninger_
 
 ## Problem Statement
 
-In the unpredictable game of golf, Strokes Gained has become the most accurate and meaningful way to measure player efficiency and performance since it began being tracked 2004. The Strokes Gained statistic is broken up into four parts: Off the Tee, Approach the Green, Around the Green and Putting. The sum of all four categories gives a players Total Strokes Gained for a given golf tournament. It essentially compares each stroke a player takes to the rest of the Tour based on distance remaining to the hole. &quot;Strokes Gained recognizes that sinking a 20-foot putt represents a better performance than sinking a three-foot putt, even though they both count as a single stroke on the scorecard&quot; (Mark Broadie, developer of Strokes Gained). Additionally, Club Head Speed, another relatively new statistic, began being recorded in 2007 using certain radar technology. Club Head Speed measures the speed at which the club impacts the ball in miles per hour only on Par 4 and Par 5 tee shots where a radar measurement was taken.
-
-Many young golfers with swing speeds well above the Tour average (roughly 113-114mph) are experiencing major success on the PGA Tour in recent years. This study aims to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained.
+Driving distance on the PGA Tour continues to increase as many young, athletic golfers with swing speeds well above the Tour average (roughly 113-114mph) are experiencing major success on the PGA Tour in recent years. As the popular style of golf shifts towards hitting the ball as far as possible, this study seeks to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. Because of physical strength or flexibility limitations, golfers often reach a maximum swing speed.
 
 ## Summary Overview
 
-This study aims to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. Through a process of wrangling, cleaning, manipulating, and modeling an extensive dataset of PGA metrics, this analysis numerically illustrates the disadvantage of having a slower Club Head Speed.
+Through a process of wrangling, cleaning, manipulating, and modeling an extensive dataset of PGA metrics, this analysis clarifies the disadvantages of having a slower Club Head Speed.
 
 ## The Data
+Description of Strokes Gained [here](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
 |Feature|Type|Description|
 |---|---|---|
 |**sg:_off-the-tee**|*float*|The distance a player hits the ball off the tee on Par 4 and Par 5's measured against a statistical baseline used for the entire Tour|
@@ -48,8 +47,11 @@ With a Club Head Speed above 115mph, professional golfers experience success bec
 
 ### Next Steps
 
-Collecting more data would make the model more accurate and coefficients more precise. Create some way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
+As I continue my research over time I plan to:
+- Collect more data to make the model more accurate and coefficients more precise. 
+- Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
+- With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 
 
-#### Players Excluded: 
+#### Top players excluded because of missing data: 
 
 Justin Rose, Francesco Molinari, Sergio Garcia, Keegan Bradley, Gary Woodland, Eddie Pepperell, Kiradech Aphibarnrat, Kevin Kisner, Ian Poulter, Adam Scott, Matt Wallace, Lucas Bjerregaard, Emiliano Grillo, Shugo Imahira, Alexander Björk, Si Woo Kim, Lee Westwood, Pat Perez, Zach Johnson, Adrian Otaegui, Shaun Norris, Thomas Pieters, Haotong Li, Thorbjorn Oleson, Dylan Frittelli, Tom Lewis, Satoshi Kodaira, Matthew Fitzpatrick, Tyrrell Hatton

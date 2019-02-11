@@ -1,4 +1,4 @@
-# Analysis of Strokes Gained and Club Head Speed on the PGA Tour
+# Analysis of Strokes Gained and Club Head Speed in Pro Golf
 _Author: Hunter Henninger_
 
 ## Introduction:
@@ -25,6 +25,7 @@ Handling the missing data results in three fairly different dataframes. The effe
 
 ## Exploratory Data Analysis:
 
+#### Averages
 Becoming familiar with existing patterns in the data is perhaps the most important stage of this study. This section begins by visualizing player averages for Club Head Speed and Strokes Gained. Witnessing the strengths and weaknesses of each player highlights the best players and demonstrates the ability of golfers to experience success in golf in various ways.
 
 ![1](./Images/clubheadspeed.png)
@@ -36,24 +37,26 @@ From the bar plot above, it is important to get a sense of the range of club hea
 Tiger Woods is considered by many as the greatest golfer of all time and seeing his average Total Strokes Gained reiterates that argument. This chart reassures the quality of Strokes Gained as a metric that actually describes golfer performance because you see the most historically successful golfers near the top (Tiger, Phil Mickelson, Rory McIlroy, etc.).
 
 <br><br>
-
+#### Strokes Gained Correlations
 To explore correlations between features, the dataset is broken up into each category of Strokes Gained and the metrics that go along with each. Plotting multiple correlation heatmaps provides a quick dive into which metrics matter the most. Among the four Strokes Gained categories, Approach the Green appeared to have the strongest relationship with Total Strokes Gained while Around the Green has the weakest.
 
 ![3](./Images/sg_correlations.png)
 
+<br><br>
+#### Club Head Speed
 Plotting the distributions of Club Head Speed and Total Strokes Gained against each other in a density plot gives some preliminary insight into their relationship. The plot may not be as upward sloping as expected.
 
 ![4](./Images/clubheadkde.png)
 
-A large part of golf at a competitive level is making smart decisions on where to hit the ball. Going for the Green is an interesting metric as players attempt to find the &quot;sweet spot&quot; of taking just enough risk.
+#### Going for the Green
+An important part of professional golf is making smart decisions on where to hit the ball. Going for the Green is an interesting metric as players attempt to find the &quot;sweet spot&quot; of taking just enough risk.
 
 ![5](./Images/goingforgreen.png)
 
 Looking closely, this plot shows somewhat of a peak between 60 and 80 percent for going for the green. The "sweet spot" is obviously different depending on the players' abilities and the golf course, but what this plot shows is that players may lose strokes by going for the green too often.
 
-<br><br>
-There are so many complexities in the game of golf and the analysis can extend to great lengths. With the knowledge of these patterns, the modeling process will produce more meaningful results. 
-
+<br><br> 
+There are so many complexities in golf from a numerical standpoint and the analysis can extend to great lengths. With the prerequisite knowledge of these patterns, the goal of this study is to determine how these important relationships change for golfers depending on their Club Head Speed.
 
 ## Modeling:
 
@@ -74,5 +77,7 @@ In comparison, the faster Club Head Speed model explains an increased 61.32% of 
 With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease their distance to the hole on every shot on their way to the hole. They do not have to rely on making the &quot;clutch&quot; putts as much as a player with a slower swing speed. A faster Club Head Speed helps players gain enough strokes off the tee and in the fairway that making chips and ten foot putts is less important.
 
 ## Next Steps:
-
-Collecting more data would make the model more accurate and coefficients more precise. Create some way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
+As I continue my research over time I plan to:
+- Collect more data to make the model more accurate and coefficients more precise. 
+- Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
+- With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 
