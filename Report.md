@@ -27,9 +27,9 @@ Handling the missing data results in three fairly different dataframes. The effe
 
 Becoming familiar with existing patterns in the data is perhaps the most important stage of this study. This section begins by visualizing player averages for Club Head Speed and all Strokes Gained categories. Witnessing the strengths and weaknesses of each player highlights the best players and demonstrates the ability of golfers to experience success in golf in various ways.
 
-![1](./Images/1.png)
+![1](./Images/clubheadspeed.png)
 
-![2](./Images/2.png)
+![2](./Images/total_sg.png)
 
 To explore correlations between features, the dataset is broken up into each category of Strokes Gained and the metrics that go along with each. Plotting multiple correlation heatmaps provides a quick dive into which metrics matter the most. Among the four Strokes Gained categories, Approach the Green appeared to have the strongest relationship with Total Strokes Gained while Around the Green has the weakest.
 
@@ -41,7 +41,7 @@ It is interesting to examine relationships between specific features. Because th
 
 A large part of golf at a competitive level is making smart decisions on where to hit the ball. Going for the Green is an interesting metric as players attempt to find the &quot;sweet spot&quot; of taking just enough risk.
 
-![6](./Images/6.png)
+![6](./Images/8.png)
 
 
 ## Modeling:
