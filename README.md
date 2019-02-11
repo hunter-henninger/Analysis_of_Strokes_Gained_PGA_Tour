@@ -25,15 +25,22 @@ This study aims to capture statistical evidence of the impact of Club Head Speed
 |**left/right_rough_tendency**|*float*|The percentage of time a tee shot comes to rest in the left/right rough|
 |**club_head_speed**|*float*|The speed at which the club impacts the ball (mph)|
 |**greens_in_regulation_percentage**|*float*|The percentage of time the player was able to hit the green in regulation (1st stroke on a Par 3, 2nd stroke on a Par 4, 3rd stroke on a Par 5)|
-|**runtime**|*float*|Duration of the movie in minutes|
-|**spoken_languages**|*object*|A list of spoken languages in the movie|
-|**tagline**|*object*|The tagline of the movie|
-|**title**|*object*|The Official Title of the movie|
-|**vote_average**|*float*|The average voting rating of the movie, as counted by TMDB|
-|**vote_count**|*float*|The number of votes, as counted by TMDB|
-|**keywords**|*object*|The movie plot keywords|
-|**cast**|*object*|Names of the cast of the movie|
-|**crew**|*object*|Names of the crew of the movie|
+|**going_for_the_green**|*float*|The percent of time a player shoots for the green on the first of a Par 4 or the second shot of a Par 5|
+|**proximity_to_hole**|*float*|The average distance from the hole a player's ball is after their approach shot in inches|
+|**left/right_rough_proximity**|*float*|The average distance remaining to the hole for all approach shots hit from the left/right rough in inches|
+|**fairway_proximity**|*float*|The average distance remaining to the hole for all approach shots hit from the fairway (including tee shots on Par 3s)|
+|**approaches_from_**|*float*|The average remaining distance to the hole for all approach shots hit from specified distance|
+|**sand_save_percentage**|*float*|The percent of time a player was able to get the ball in the hole in two shots or less from a greenside bunker|
+|**proximity_to_hole_from_sand**|*float*|The average remaining distance to the hole after hitting the ball onto the putting surface from a bunker around the green|
+|**scrambling**|*float*|The percent of time a player misses the green in regulation but still makes par or better|
+|**scrambling_from_**|*float*|The percent of time a player misses the green in regulation but still makes par or better when the birdie stroke is taken the specified distance|
+|**putting_average**|*float*|The average number of putts per green in regulation|
+|**one_putt_percentage**|*float*|The percent of time a player makes it in one putt after getting on the green|
+|**3-putt_avoidance**|*float*|The percent of time three or more putts were taken|
+|**putts_per_round**|*float*|The average number of putts per round played|
+|**putting_from_**|*float*|The percentage of time the player makes the putt from the specified distance|
+|**approach_putt_performance**|*float*|Average distance to the hole after the first putt (inches)|
+|**birdie_or_better_conversion_percentage**|*float*|The percent of time a player makes birdie or better after hitting the green in regulation|
 
 ## Conclusion
 
