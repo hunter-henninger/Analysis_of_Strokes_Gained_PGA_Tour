@@ -54,6 +54,8 @@ As I continue my research over time I plan to:
 - Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
 - With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 
 
+<br><br>
+<br><br>
 #### Top players excluded because of missing data: 
 
 Justin Rose, Francesco Molinari, Sergio Garcia, Keegan Bradley, Gary Woodland, Eddie Pepperell, Kiradech Aphibarnrat, Kevin Kisner, Ian Poulter, Adam Scott, Matt Wallace, Lucas Bjerregaard, Emiliano Grillo, Shugo Imahira, Alexander Björk, Si Woo Kim, Lee Westwood, Pat Perez, Zach Johnson, Adrian Otaegui, Shaun Norris, Thomas Pieters, Haotong Li, Thorbjorn Oleson, Dylan Frittelli, Tom Lewis, Satoshi Kodaira, Matthew Fitzpatrick, Tyrrell Hatton
