@@ -74,18 +74,19 @@ In comparison, the faster Club Head Speed model explains an increased 61.32% of 
 
 ## Conclusion:
 
-In the game of golf, especially at a competitive level, players are always looking for ways to improve or maximize Strokes Gained. Before going into this study, it was known that increasing Club Head Speed makes the sport easier. The models interpretation of the models proves this notion and explains why. The largest coefficients of the fast model demonstrate that a faster swing speed allows for more GIR and less backlash from missing mid-range putts. On the other hand, a player with a slower swing speed must be excellent at every aspect of the game to compete with the big hitters. The number of strokes that these players lose on the way to the hole is difficult to make up for. They rely on their ability to chip and putt better than the rest of the field. Therefore, the model recommends that competitive golfers that struggle to increase Club Head Speed should master their game on and around the green. If you can beat people on and around the green, then you can bypass the disadvantage of a slower swing speed. 
+In the game of golf, especially at a competitive level, players are constantly looking for ways to  maximize Strokes Gained. Before going into this study, it was known that increasing Club Head Speed makes the sport easier and the regression analysis proves it. The method used to explore the relationship between Strokes Gained and Club Head Speed essentially breaks golfers into two categories: slower or faster swing speeds. The largest coefficients of the faster model demonstrate that a fast swing speed allows for a high level of strokes gained and GIR and Scrambling percentages. On the other hand, players with slow swing speeds gain all their strokes on and around the green. These types of players make up for the strokes they lose on the way to the green by sinking medium to long range putts. Therefore, to improve Strokes Gained, this study recommends excellence on the green for competitive golfers that swing the club below the threshold of 115.51mph. If a player can beat the field on and around the green, then they can bypass the disadvantage of a slower swing speed.
 
 <br><br>
-One important thing to note is that each of the golfers included in this study are of the best in the world. With the influx of powerful swings coming to the PGA in recent years, the ability of certain golfers with slow swing speeds to sustain their ability to compete is unexplainable by the numbers. The results of this study highlight the impossible success that some golfers have against all odds.
+One important thing to note is that each of the golfers included in this study are of the top 100 best in the world. With the influx of powerful swings coming to the PGA in recent years, the ability of certain golfers with slow swing speeds to sustain their level of competition is somewhat unexplainable by the numbers. The results of this study highlight the impossible success that some golfers have against all odds.
 
 <br><br>
 Increasing your club head speed as a golfer is difficult as there are physical limitations to improving it. So how do you improve Strokes Gained?
 - Avoiding 3-Putts
+- Clutch Putting
 - Scrambling
 - Going for the Green Successfully
 - Sand Saves
-- Clutch Putting
+
 
 ## Next Steps:
 As I continue my research over time I plan to:
