@@ -74,10 +74,21 @@ In comparison, the faster Club Head Speed model explains an increased 61.32% of 
 
 ## Conclusion:
 
-With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease their distance to the hole on every shot on their way to the hole. They do not have to rely on making the &quot;clutch&quot; putts as much as a player with a slower swing speed. A faster Club Head Speed helps players gain enough strokes off the tee and in the fairway that making chips and ten foot putts is less important.
+In the game of golf, especially at a competitive level, players are always looking for ways to improve or maximize Strokes Gained. Before going into this study, it was known that increasing Club Head Speed makes the sport easier. The models interpretation of the models proves this notion and explains why. The largest coefficients of the fast model demonstrate that a faster swing speed allows for more GIR and less backlash from missing mid-range putts. On the other hand, a player with a slower swing speed must be excellent at every aspect of the game to compete with the big hitters. The number of strokes that these players lose on the way to the hole is difficult to make up for. They rely on their ability to chip and putt better than the rest of the field. Therefore, the model recommends that competitive golfers that struggle to increase Club Head Speed should master their game on and around the green. If you can beat people on and around the green, then you can bypass the disadvantage of a slower swing speed. 
+
+<br><br>
+One important thing to note is that each of the golfers included in this study are of the best in the world. With the influx of powerful swings coming to the PGA in recent years, the ability of certain golfers with slow swing speeds to sustain their ability to compete is unexplainable by the numbers. The results of this study highlight the impossible success that some golfers have against all odds.
+
+<br><br>
+Increasing your club head speed as a golfer is difficult as there are physical limitations to improving it. So how do you improve Strokes Gained?
+- Avoiding 3-Putts
+- Scrambling
+- Going for the Green Successfully
+- Sand Saves
+- Clutch Putting
 
 ## Next Steps:
 As I continue my research over time I plan to:
-- Collect more data to make the model more accurate and coefficients more precise. 
+- Collect more data to make the model more accurate and coefficients more precise. More specifically, include players not in the Top 100 in the world.
 - Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
 - With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 

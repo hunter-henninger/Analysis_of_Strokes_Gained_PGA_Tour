@@ -3,11 +3,12 @@ _Author: Hunter Henninger_
 
 ## Problem Statement
 
-Driving distance on the PGA Tour continues to increase as many young, athletic golfers with swing speeds well above the Tour average (roughly 113-114mph) are experiencing major success on the PGA Tour in recent years. As the popular style of golf shifts towards hitting the ball as far as possible, this study seeks to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. Because of physical strength or flexibility limitations, golfers often reach a maximum swing speed.
+Driving distance on the PGA Tour continues to increase as many young, athletic golfers with swing speeds well above the Tour average (roughly 113-114mph) are experiencing major success on the PGA Tour in recent years. As the popular style of golf shifts towards hitting the ball as far as possible, this study seeks to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. The analysis
+seeks to compare golfers with different Club Head Speeds and what factors affect their performance the most.
 
 ## Summary Overview
 
-Through a process of wrangling, cleaning, manipulating, and modeling an extensive dataset of PGA metrics, this analysis clarifies the disadvantages of having a slower Club Head Speed.
+The analysis is broken up into six clean notebooks as clear steps are taken to achieve the main goal. It starts by wrangling, cleaning, and manipulating a dataset of PGA Tour metrics. Exploratory analysis takes place using visualizations and plots to demonstrate key relationships between Strokes Gained statistics and important factors. Through a process of model selection and tuning, two production models are fit: one for golfers with slower swing speeds and one for golfers with faster swing speeds. A comparison of explanatory power and coefficients leads to conclusive insight about ways to improve Strokes Gained with a below average Club Head Speed.
 
 ## The Data
 |Feature|Type|Description|
@@ -40,16 +41,16 @@ Through a process of wrangling, cleaning, manipulating, and modeling an extensiv
 |**approach_putt_performance**|*float*|Average distance to the hole after the first putt (inches)|
 |**birdie_or_better_conversion_percentage**|*float*|The percent of time a player makes birdie or better after hitting the green in regulation|
 <br><br>
-Description of Strokes Gained [here](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
+Description of Strokes Gained metric [here](https://www.pgatour.com/news/2016/05/31/strokes-gained-defined.html)
 
-## Conclusion
+## Results and Conclusion
 
 With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease their distance to the hole on every shot on their way to the hole. They do not have to rely on making the "clutch" putts as much as a player with a slower swing speed. A faster Club Head Speed helps players gain enough strokes off the tee and in the fairway that making chips and ten foot putts is less important.
 
 ### Next Steps
 
 As I continue my research over time I plan to:
-- Collect more data to make the model more accurate and coefficients more precise. 
+- Collect more data to make the model more accurate and coefficients more precise. More specifically, include players not in the Top 100 in the world.
 - Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
 - With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 
 
