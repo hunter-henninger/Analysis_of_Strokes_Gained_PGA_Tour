@@ -4,11 +4,11 @@ _Author: Hunter Henninger_
 ## Problem Statement
 
 Driving distance on the PGA Tour continues to increase as many young, athletic golfers with swing speeds well above the Tour average (roughly 113-114mph) are experiencing major success on the PGA Tour in recent years. As the popular style of golf shifts towards hitting the ball as far as possible, this study seeks to capture statistical evidence of the impact of Club Head Speed on Total Strokes Gained. The analysis
-seeks to compare golfers with different Club Head Speeds and what factors affect their performance the most.
+provides a comparison of golfers with different swing speeds and identifies factors that affect their performance the most.
 
 ## Summary Overview
 
-The analysis is broken up into six clean notebooks as clear steps are taken to achieve the main goal. It starts by wrangling, cleaning, and manipulating a dataset of PGA Tour metrics. Exploratory analysis takes place using visualizations and plots to demonstrate key relationships between Strokes Gained statistics and important factors. Through a process of model selection and tuning, two production models are fit: one for golfers with slower swing speeds and one for golfers with faster swing speeds. A comparison of explanatory power and coefficients leads to conclusive insight about ways to improve Strokes Gained with a below average Club Head Speed.
+The analysis is broken up into six clean notebooks as clear steps are taken to achieve the main goal. It starts by wrangling, cleaning, and manipulating a dataset of PGA Tour metrics. The data is explored through visualizations of distributions and patterns to demonstrate key relationships between Strokes Gained and other metrics. Through a process of model selection and tuning, two production models are fit: one for golfers with slower swing speeds and the other for golfers with faster swing speeds. A comparison of explanatory power and coefficients leads to clear recommandations for golfers with slow swing speeds to improve Strokes Gained.
 
 ## The Data
 |Feature|Type|Description|
@@ -45,14 +45,16 @@ Description of Strokes Gained metric [here](https://www.pgatour.com/news/2016/05
 
 ## Results and Conclusion
 
-With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease their distance to the hole on every shot on their way to the hole. They do not have to rely on making the "clutch" putts as much as a player with a slower swing speed. A faster Club Head Speed helps players gain enough strokes off the tee and in the fairway that making chips and ten foot putts is less important.
+In the game of golf, especially at a competitive level, players are constantly looking for ways to  maximize Strokes Gained. Before going into this study, it was known that increasing Club Head Speed makes the sport easier and the regression analysis proves it. The method used to explore the relationship between Strokes Gained and Club Head Speed essentially breaks golfers into two categories: slower or faster swing speeds. 
+<br><br>
+With a Club Head Speed above 115mph, professional golfers experience success because of their ability to decrease distance to the hole on every stroke. It allows for more room for error on and around the green, arguably the most difficult aspect of the game. The study suggests for players with slower swing speeds, chipping and putting with excellence is key to remaining competitive as average driving distance continues to rise. 
 
 ### Next Steps
 
 As I continue my research over time I plan to:
-- Collect more data to make the model more accurate and coefficients more precise. More specifically, include players not in the Top 100 in the world.
-- Create a way for a competitive amateur golfer to compare themselves to PGA players with similar Club Head Speeds and discover ways that they can improve their game.
-- With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. The ability to obtain that data is unclear at the time but there is an immense amount of research to be done on those statistics. 
+- Collect more data to make the model more accurate and increase the precision of the coefficients. Specifically, include players not in the Top 100 in the world.
+- Create a platform for competitive amateur golfers to compare themselves to PGA players with similar swing speeds and discover ways to improve their game.
+- With new technologies like TrackMan, there are measurements of golf swings that are not included in the ShotLink database. I am excited to extend my research.
 
 <br><br>
 <br><br>
